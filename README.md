@@ -1,4 +1,4 @@
-# opernFrameworks
+# openFrameworks
 
 ![photo](./photo.jpeg)
 #### Hello my name is Sungmin Ashley Ro. 
