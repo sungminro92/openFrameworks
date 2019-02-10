@@ -1,6 +1,5 @@
 ## Concept Descriptions
 
-concept description ..
 
 ### Project 1
 
