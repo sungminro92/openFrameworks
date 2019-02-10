@@ -16,7 +16,9 @@ My first project will be a story telling about my experience of being able to ca
 
 ### Project 3
 
-I want to create a game where
+I want to create a mini series of speed games based on colors, numbers, words and visuals, and with sound.
+(further details to be determined...!)
+
 
 
 ## Video
