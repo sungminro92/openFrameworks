@@ -185,6 +185,8 @@ ofColor green(0, 255, 0);
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    ofPolyline curvedSegmentPolyline;
+    ofPolyline closedShapePolyline;
     ofPolyline line;
     // one big grid is = 40;
     // facial radius = 40; circle begins in the middle
@@ -195,7 +197,20 @@ void ofApp::draw(){
     //--------- figure 1
     ofSetColor(skin);
     ofDrawCircle(f1x, f1y-300, 50); // face
-
+        
+    ofSetColor(red);
+    curvedSegmentPolyline.curveTo(f1x-20, f1y-270);
+    curvedSegmentPolyline.curveTo(f1x-20, f1y-270);
+    curvedSegmentPolyline.curveTo(f1x-10, f1y-275);
+    curvedSegmentPolyline.curveTo(f1x, f1y-270);
+    curvedSegmentPolyline.curveTo(f1x+10, f1y-275);
+    curvedSegmentPolyline.curveTo(f1x+20, f1y-270);
+    curvedSegmentPolyline.curveTo(f1x, f1y-260);
+    curvedSegmentPolyline.curveTo(f1x-20, f1y-270);
+    curvedSegmentPolyline.curveTo(f1x-20, f1y-270);
+    curvedSegmentPolyline.draw();
+        
+        
     ofSetColor(red);
     ofDrawRectRounded(f1x-40, f1y-365, 0, 80, 10, 10, 10, 10, 10); // accessory
     ofSetColor(black);
