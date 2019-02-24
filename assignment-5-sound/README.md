@@ -13,5 +13,6 @@ Last scene is showing an Earth with a house in the middle, with a fun movement, 
 
 
 ### Video
+Link to the Youtube Video:
 
-link to YouTube video: 
+[![Youtube video](http://img.youtube.com/vi/jmGZyRaJPwY)](http://www.youtube.com/watch?v=jmGZyRaJPwY)
