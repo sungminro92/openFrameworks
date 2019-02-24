@@ -12,6 +12,9 @@ float midX, midY;
 
 ofVec2f figure1; ofVec2f figure2; ofVec2f figure3; ofVec2f figure4;
 
+float f2Color;
+float f2ColorMove;
+
 float skirtX1, skirtX2;
 float f1x, f1y, f2x, f2y, f3x, f3y, f4x, f4y;
 float shadowX1, shadowX2, shadowX3, shadowX4; //X value of moving point
@@ -150,6 +153,11 @@ void ofApp::update() {
         }
     }
     
+    f2ColorMove =1;
+    if(sec >= 2) {
+        f2Color += ofMap(f2ColorMove, 0, 255, 255, 0);
+    }
+    
 //--------- FIGURE 3 movement
     f4Move1.set(0.5,0.5);
     f4Move2.set(-0.7,-0.7);
@@ -183,11 +191,15 @@ ofColor blueBlack(18, 41, 57);
 ofColor skyBlue(113, 175, 186);
 ofColor green(0, 255, 0);
 
+
 //--------------------------------------------------------------
 void ofApp::draw(){
+    
     ofPolyline curvedSegmentPolyline;
     ofPolyline closedShapePolyline;
     ofPolyline line;
+    ofSetCircleResolution(100);
+    ofSetCurveResolution(100);
     // one big grid is = 40;
     // facial radius = 40; circle begins in the middle
     
@@ -239,7 +251,7 @@ void ofApp::draw(){
     ofDrawRectangle(f1x-50, f1y-20, 100, 20);  // details
         
     } else if( drawSecond ) {
-    
+    ofBackground(0,f2Color,253);
     ofSetColor(blueBlack); // color
     ofBeginShape(); // mountain shape
     ofVertex(figure2-ofVec2f(362,150));
@@ -264,7 +276,7 @@ void ofApp::draw(){
     }
         else if ( drawThird ) {
 //--------- figure 3
-    
+    ofBackground(yellow);
     ofSetColor(f3Color2);
     ofDrawRectangle(f3x-105, f3y-50, 210, 50);
     ofDrawRectangle(f3x-85, f3y-150, 170, 100);
@@ -344,7 +356,7 @@ void ofApp::draw(){
     ofEndShape();
 
     } else if ( drawForth) {
-        
+        ofBackground(blueBlack);
         ofSetColor(skyBlue);
         ofDrawCircle(f4x,f4y-250, 250);
         
