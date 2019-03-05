@@ -15,4 +15,4 @@ For the last five seconds, I drew a switch that follows the mouse position. When
 
 
 ### Video
-![movement](./video/week6-hw-event.gif)
+![events](./video/week6-hw-events.gif)
