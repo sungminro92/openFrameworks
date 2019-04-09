@@ -21,6 +21,6 @@ Feedback I received last week:
 
 
 ### Video
-![midterm-revise](./video/week8-hw-weather-json.gif)
+![midterm-revise](./video/week9-hw-midterm-revise.gif)
 
 
