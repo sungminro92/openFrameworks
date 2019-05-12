@@ -28,12 +28,11 @@ And the final scene shows that no matter where we live and how different culture
 #### Video
 ![projcet1-story-telling](./video/project1-story-telling.gif)
 
-### Project2: API visualization
+### Project2: API visualization - Dark Sky API
 #### Description
-
 Project 2 uses Dark Sky Api and its data about weathers in two different places, New York and Seoul
-
 I am putting a direct representation of the weather of Seoul, South Korea and New York City, United States.
+This visualization is specially designed for my family and myself for being separated for a long time. Weather is one factor that matters the most in our lives. It affects the most things in our lives such as moods, emotions, activities, vision, memories,  This can help our family to learn & connect better in between two different places, so far away from each other, by easily recognizing their weather conditions. 
 
 The visual representations are animated in relation to different conditions of each city's weather according to Dark Sky API.
 
@@ -60,28 +59,19 @@ The followings are the what the visuals representations are created based on, wh
 #### Description
 
 The game I created is called 'The Floor is Lava,' where the floor gradually becomes covered by Lava, and, all the people(circles) must survive. This game is designed to urge and to bring out everyone's intuitive sense of braveness and heroism!
-
-The character must save all people and get to the top of the building to hit the rescue flag to win the game.
+The player must save all people and get to the top of the building to hit the rescue flag to win the game.
 
 The game rules are:
-
 - The character is colored black
-
 - The circles trapped inside are colored in two different colors, red and blue.
-
 - Red colored circles can be saved only by red windows, and the blue ones only by blue windows.
-
 - the character is able to navigate up and down through the doors located on each floor, using UP/DOWN key
-
 - the character is able to pick up / drop off the character at any point of the floor and the building, using SPACE BAR key.
-
 - once a circle is picked up, the character needs to get the same colored window as near as possible and press SPAPCE BAR key. 
-
 - the character is able to save one circle at a time.
-
 - the player wins when all circles are saved and the character gets to the top floor to hit the rescue(white) flag.
-
 - the player loses when the lava starts to cover the character's body
 
 #### Video
 ![projcet3-game](./video/project3-game.gif)
+![projcet3-game-ending](./video/project3-game-end.gif)
