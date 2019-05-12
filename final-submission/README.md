@@ -5,36 +5,25 @@
 #### Description
 
 The story I am trying to tell in this project is based on my personal experience of residing in many different cities.
+The cities I am introducing in the story are Korea, Seattle, and New York, USA and, the amount of memories introduced for each city equivalent to how long I've been in that city.
 
-The cities I am introducing in the story are Korea, Seattle, and New York, and, the amount of memories introduced for each city equivalent to how long I've been in that city.
-
-I inrtroduce Koroea first by:
-
+I inrtroduce Korea first by:
 - displaying the popular things in Korea
-
 - having the users learn about the meanings each part of Korean flag consists of with mouse clicks
-
 - also learn about how Korean characters look like as if it was an image puzzle
-
 - showing them how long it would take flying over to Seattle, USA from Korea
 
 Seattle is then introduced by:
-
 - displaying popular companeis and significant things that are in Seattle
-
-- telling them how the weather in Seattle is like with an animation created with Mount Rainier, Sun, and movement of shadows on the mountain, depending on your mouse location
-
+- telling them how the weather in Seattle is like with an animation created with Mount Rainier, the sun, and Movement of shadows on the mountain, depending on your mouse location
 - visualizaing my favorite events and activities, the Tulip Festival, snowboarding, 
-
 - showing how long it would take flying over to New York City from  Seattle
 
 Finally, New York is introduced by:
-
 - animating the Empire State Building, Day version and Night version, swithced by mouse click
+- popular things I've seen in New York City.
 
-- 
-
-th
+And the final scene shows that no matter where we live and how different culturess are, we are all neighbors on the earth.
 
 #### Video
 ![projcet1-story-telling](./video/project1-story-telling.gif)
