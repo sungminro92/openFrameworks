@@ -37,9 +37,7 @@ This visualization is specially designed for my family and myself for being sepa
 
 I think that this can help our family to learn & connect better in between two different places, so far away from each other, by easily recognizing their weather conditions. 
 
-The visual representations are animated in relation to different conditions of each city's weather according to Dark Sky API.
-
-The followings are the what the visuals representations are created based on, which is also controllable by the gui panel:
+The visual representations are animated based on different conditions of each city's weather according to Dark Sky API as the followings ( which is also controlled by a gui panel) :
 - Background color to represent how hot it is ( based on 'current temperature')
 - Number of clouds to represent cloudiness ( based on 'cloud cover' )
 - Opacity of the clouds to represent Humidity ( based on 'humidity' )
