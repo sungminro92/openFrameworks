@@ -31,25 +31,21 @@ And the final scene shows that no matter where we live and how different culture
 ### Project2: API visualization - Dark Sky API
 #### Description
 Project 2 uses Dark Sky Api and its data about weathers in two different places, New York and Seoul
+
 I am putting a direct representation of the weather of Seoul, South Korea and New York City, United States.
-This visualization is specially designed for my family and myself for being separated for a long time. Weather is one factor that matters the most in our lives. It affects the most things in our lives such as moods, emotions, activities, vision, memories,  This can help our family to learn & connect better in between two different places, so far away from each other, by easily recognizing their weather conditions. 
+This visualization is specially designed for my family and myself for being separated for a long time. Weather is one factor that matters the most in our lives. It affects the most things in our lives such as moods, emotions, activities, vision, memories and so many more.
+
+I think that this can help our family to learn & connect better in between two different places, so far away from each other, by easily recognizing their weather conditions. 
 
 The visual representations are animated in relation to different conditions of each city's weather according to Dark Sky API.
 
 The followings are the what the visuals representations are created based on, which is also controllable by the gui panel:
-
 - Background color to represent how hot it is ( based on 'current temperature')
-
 - Number of clouds to represent cloudiness ( based on 'cloud cover' )
-
 - Opacity of the clouds to represent Humidity ( based on 'humidity' )
-
 - Movement of the clouds to represent how fast the wind is blowing ( based on 'wind speed' )
-
 - Position of the sun to represent current time compared to sunrise and sunset time
-
 - Visibility of the sun to represent how clear it is ( based on 'visibility' )
-
 - Number of the days to show the next days' temperatures ( based on each day's lowest and highest temperature)
 
 #### Video
