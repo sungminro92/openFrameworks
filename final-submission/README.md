@@ -1,8 +1,7 @@
 ## Final Submission 
 
 ### Project1: Story-telling
-
-#### Description
+#### P1 Description
 
 The story I am trying to tell in this project is based on my personal experience of residing in many different cities.
 The cities I am introducing in the story are Korea, Seattle, and New York, USA and, the amount of memories introduced for each city equivalent to how long I've been in that city.
@@ -25,11 +24,13 @@ Finally, New York is introduced by:
 
 And the final scene shows that no matter where we live and how different culturess are, we are all neighbors on the earth.
 
-#### Video
+#### P1 Video
 ![projcet1-story-telling](./video/project1-story-telling.gif)
 
+---
+
 ### Project2: API visualization - Dark Sky API
-#### Description
+#### P2 Description
 Project 2 uses Dark Sky Api and its data about weathers in two different places, New York and Seoul
 
 I am putting a direct representation of the weather of Seoul, South Korea and New York City, United States.
@@ -46,11 +47,13 @@ The visual representations are animated based on different conditions of each ci
 - Visibility of the sun to represent how clear it is ( based on 'visibility' )
 - Number of the days to show the next days' temperatures ( based on each day's lowest and highest temperature)
 
-#### Video
+#### P2 Video
 ![project2-api-data-visualization](./video/project2-api-visualization.gif)
 
+---
+
 ### Project3: Game
-#### Description
+#### P3 Description
 
 The game I created is called 'The Floor is Lava,' where the floor gradually becomes covered by Lava, and, all the people(circles) must survive. This game is designed to urge and to bring out everyone's intuitive sense of braveness and heroism!
 The player must save all people and get to the top of the building to hit the rescue flag to win the game.
@@ -66,6 +69,6 @@ The game rules are:
 - the player wins when all circles are saved and the character gets to the top floor to hit the rescue(white) flag.
 - the player loses when the lava starts to cover the character's body
 
-#### Video
+#### P3 Video
 ![projcet3-game](./video/project3-game.gif)
 ![projcet3-game-ending](./video/project3-game-end.gif)
